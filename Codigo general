@@ -1,0 +1,20 @@
+nombreUsuario= input("Escriba su nombre: ")
+
+print("\n")
+
+temperatura= int(input(nombreUsuario + ", por favor ingrese la temperatura a la que desea el agua: "))
+
+print("\n")
+
+salidaAgua= int(input("Escriba por donde desea que salga el agua: "))
+
+print("\n")
+
+if salidaAgua== 1:
+  print("señor/a " + nombreUsuario + " la llave uno se està preparando para dejar       salir el agua, por favor espere un momento.")
+
+elif salidaAgua== 2:
+  print("señor/ señora" + nombreUsuario + "La llave dos se està preparando para dejar salir el agua, por favor espere un momento.")
+
+else:
+  print("El numero de llave seleccionado no està en el sistema, por favor intente de nuevo.")
