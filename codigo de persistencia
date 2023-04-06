@@ -1,0 +1,11 @@
+import json
+
+x = {
+  "usuario" : "nombreUsuario",
+  "temperatura": "temperatura",
+  "llave" : "salidaAgua"
+}
+
+y = json.dumps(x)
+
+print(y)
